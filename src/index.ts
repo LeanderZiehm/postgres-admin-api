@@ -1,10 +1,11 @@
-import express from "express"
+import app from "./server.ts"
+import createDatabase from "./database.ts";
 
-const app = express();
 const port = 3000;
 
-app.get("/",(req,res) => {
-    console.log("/");
+
+app.get("/create-database",(req,res) => {
+    createDatabase("secrets")
 });
 
 app.listen(3000, () => {
