@@ -1,0 +1,34 @@
+{
+  "name": "postgres-admin-api",
+  "version": "0.0.1",
+  "description": "lets me quickly create a table in postgres over a api",
+  "keywords": [
+    "postgres",
+    "api",
+    "express"
+  ],
+  "homepage": "https://github.com/LeanderZiehm/postgres-admin-api#readme",
+  "bugs": {
+    "url": "https://github.com/LeanderZiehm/postgres-admin-api/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeanderZiehm/postgres-admin-api.git"
+  },
+  "license": "MIT",
+  "author": "Leander Ziehm",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "postgres": "^3.4.7"
+  }
+}
